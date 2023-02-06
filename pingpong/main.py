@@ -81,7 +81,13 @@ def update():
             ball.angle = randint((ball.angle - 10) * -1, (ball.angle + 10) * -1)
         except ValueError:
             ball.angle = randint((ball.angle + 10) * -1, (ball.angle - 10) * -1)
-    if ball.colliderect(player1):
+    if ball.colliderect(player1) or ball.colliderect(player2):
+        try:
+            ball.angle = randint(180 - ball.angle - 5, 180 - ball.angle + 5)
+        except ValueError:
+            ball.angle = randint(180 - ball.angle + 5, 180 - ball.angle - 5)
+    # code for more interesting game
+    """    if ball.colliderect(player1):
         speed += 0.5
         if ball.angle > 0:
             ball.angle -= randint(85, 95)
@@ -92,9 +98,9 @@ def update():
         if ball.angle > 0:
             ball.angle += randint(85, 95)
         else:
-            ball.angle -= randint(85, 95)
-    # let the ball move
+            ball.angle -= randint(85, 95)"""
     ball.move_forward(speed)
 
 
 pgzrun.go()
+
