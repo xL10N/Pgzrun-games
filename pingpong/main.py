@@ -76,6 +76,7 @@ def update():
         get_point()
 
     if ball.y < 10 or ball.y > 340:
+        speed += 0.25
         # bounce
         try:
             ball.angle = randint((ball.angle - 10) * -1, (ball.angle + 10) * -1)
