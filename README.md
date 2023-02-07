@@ -57,8 +57,9 @@ In can decommit this part of code and commit the part below for more intersting 
 You can add in the update function thes following lines, to let player1 and player2 spin:
 
 ```
-player1.angle += int("a number")
-player2.angle += int("a namber")
+player1.angle += 100
+player2.angle += 100
+# you can use any integer or float value
 ```
 
 ##### Source
