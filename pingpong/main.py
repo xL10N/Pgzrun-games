@@ -86,7 +86,7 @@ def update():
             ball.angle = randint(180 - ball.angle - 5, 180 - ball.angle + 5)
         except ValueError:
             ball.angle = randint(180 - ball.angle + 5, 180 - ball.angle - 5)
-    # code for more interesting game
+    # code for more interesting game, but for using it, you must commit or delet line 84-88
     """    if ball.colliderect(player1):
         speed += 0.5
         if ball.angle > 0:
