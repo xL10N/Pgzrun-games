@@ -49,5 +49,5 @@ https://www.pngitem.com/middle/wTThoR_neon-rectangle-freetoedit-frame-border-geo
 https://www.pngitem.com/middle/whmThJ_neon-rectangle-freetoedit-red-frame-border-geometric-hd/
 https://www.aposteriori.com.sg/pygame-zero-helper/
 
-The file "pgzhelper.py", i have downloaded from the last link.
+The file "pgzhelper.py", I downloaded from the last link.
 ***
