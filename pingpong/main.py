@@ -3,7 +3,7 @@ import pgzrun
 from random import randint
 from pgzhelper import *
 
-# width and height of the tab
+# width and height of the screen
 WIDTH = 700
 HEIGHT = 350
 # create player1 ons set the position
