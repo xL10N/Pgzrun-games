@@ -54,6 +54,12 @@ In can decommit this part of code and commit the part below for more intersting 
             ball.angle -= randint(85, 95)"""
 
 ```
+You can add in the update function thes following lines, to let player1 and player2 spin:
+
+```
+player1.angle += int("a number")
+player2.angle += int("a namber")
+```
 
 ##### Source
 https://www.pngitem.com/middle/hwJmwox_neon-blue-light-circle-tumblr-neon-lights-tumblr/
