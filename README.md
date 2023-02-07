@@ -13,6 +13,8 @@ You need to install pgzrun, type this in your Shell/Terminal:
 In this game, you can choose one of the bird from the game "Angry Birds". I you do not know, what are the names from the birds, you can look in the "Image" folder. After that, you must choose, if you want to hold or to click  "SPACE" for flying resp. jumping. Then the game will start in 5 seconds. You must dodge the wood blocks. In the top-left corner, there is the scoreboard. Evry time when a wood block leaves the screen, you get a point. If you get hit by a wood block, the game will stop and your points will be saved in the point history. This is a txt file, where you can look the exact date and hour when you die up and there will be the  points of this try too.
 ##### Source
 Source of the Images:
+
+
 https://www.angrybirds.com/characters/red/
 https://www.angrybirds.com/characters/chuck/
 https://www.angrybirds.com/characters/bomb/
