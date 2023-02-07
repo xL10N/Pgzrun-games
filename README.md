@@ -32,28 +32,9 @@ https://www.deviantart.com/damienfan/art/angry-birds-background-900745105
 https://pymunk-tutorial.readthedocs.io/en/latest/bird/bird.html
 ***
 ## Ping-Pong game
-This game is a a two-player game. The left player can move his/ her paddle with "W" (up) and "S" (down) and the right player con move his/ her paddle with the up and down button. In top-middle is the scoreboard. Every time, a playe cannot hit the ball, the other player get a point. If you hit the ball with the upper resp. lower side of the paddle, you can let he ball make very interesting moves (only when you do the next following step).
-In can decommit this part of code and commit the part below for more intersting game.
-```    if ball.colliderect(player1) or ball.colliderect(player2):
-        try:
-            ball.angle = randint(180 - ball.angle - 5, 180 - ball.angle + 5)
-        except ValueError:
-            ball.angle = randint(180 - ball.angle + 5, 180 - ball.angle - 5)
-    # code for more interesting game
-    """    if ball.colliderect(player1):
-        speed += 0.5
-        if ball.angle > 0:
-            ball.angle -= randint(85, 95)
-        else:
-            ball.angle += randint(85, 95)
-    if ball.colliderect(player2):
-        speed += 0.5
-        if ball.angle > 0:
-            ball.angle += randint(85, 95)
-        else:
-            ball.angle -= randint(85, 95)"""
+This game is a a two-player game. The left player can move his/ her paddle with "W" (up) and "S" (down) and the right player con move his/ her paddle with the up and down button. In top-middle is the scoreboard. Every time, a playe cannot hit the ball, the other player get a point. If you hit the ball with the upper resp. lower side of the paddle, you can let he ball make very interesting moves.
 
-```
+
 You can add in the update function thes following lines, to let player1 and player2 spin:
 
 ```
