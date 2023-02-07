@@ -30,7 +30,7 @@ print("Game Starts in 5s")  # wait 5 second, so you can prepare for the game
 sleep(5)
 points = 0
 start = 0
-WIDTH = 1203  # width and height of the gametab
+WIDTH = 1203  # width and height of the gamescreen
 HEIGHT = 600
 bg1 = Actor("background")  # background size 2560px x 1440px
 bg1.x = 0
@@ -51,7 +51,7 @@ def draw():
     # using for-loop for draw the wood blocks
     for c in columns:
         c.draw()
-    # draw the scoreboard in the top-left corner of the game tab
+    # draw the scoreboard in the top-left corner of the game screen
     screen.draw.text(str(points), (20, 20))
 
 def on_key_down(key):
@@ -76,7 +76,7 @@ def update():
             now = datetime.now()
             f.write(f'{now.strftime("%d/%m/%Y %H:%M:%S")}    Points : {points} \n')
             exit()  # exit the game
-        # if a wood block is not on the tab anymore
+        # if a wood block is not on the screen anymore
         if c.x < -23.5:
             points += 1
             seed()
