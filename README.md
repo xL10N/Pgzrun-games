@@ -44,6 +44,20 @@ player1.angle += 100
 player2.angle += 100
 # you can use any integer or float value
 ```
+You can also add this block of code, so player1 can control the ball, if the ball is on player2 side and player2 can do the same too, if the ball is in player1 side:
+```
+def cheat():
+    if ball.x < 351:
+        if keyboard.right:
+            ball.angle += 2.5
+        if keyboard.left:
+            ball.angle -= 2.5
+    else:
+        if keyboard.d:
+            ball.angle += 2.5
+        if keyboard.a:
+            ball.angle -= 2.5
+```
 
 ##### Source
 https://www.pngitem.com/middle/hwJmwox_neon-blue-light-circle-tumblr-neon-lights-tumblr/
