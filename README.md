@@ -10,7 +10,7 @@ You need to install pgzrun, type this in your Shell/Terminal:
 `pip install pgzrun`
 ***
 ## Flappy Angry Birds
-In this game, you can choose one of the bird from the game "Angry Birds". I you do not know, what are the names from the birds, you can look in the "Image" folder. After that, you must choose, if you want to hold or to click  "SPACE" for flying resp. jumping. Then the game will start in 5 seconds. You must dodge the wood blocks. In the top-left corner, there is the scoreboard. Evry time when a wood block leaves the screen, you get a point. If you get hit by a wood block or hit the ground, the game will stop and your points will be saved in the point history. This is a txt file, where you can look the exact date and hour when you die up and there will be the  points of this try too.
+In this game, you can choose one of the bird from the game "Angry Birds". If you do not know, what are the names from the birds, you can look in the "Image" folder. After that, you must choose, if you want to hold or to click  "SPACE" for flying resp. jumping. Then the game will start in 5 seconds. You must dodge the wood blocks. In the top-left corner, there is the scoreboard. Evry time when a wood block leaves the screen, you get a point. If you get hit by a wood block or hit the ground, the game will stop and your points will be saved in the point history. This is a txt file, where you can look the exact date and hour when you die up and there will be the  points of this try too.
 ##### Source
 Source of the Images:
 
@@ -34,7 +34,7 @@ https://www.deviantart.com/damienfan/art/angry-birds-background-900745105
 https://pymunk-tutorial.readthedocs.io/en/latest/bird/bird.html
 ***
 ## Ping-Pong game
-This game is a a two-player game. The left player can move his/ her paddle with "W" (up) and "S" (down) and the right player con move his/ her paddle with the up and down button. In top-middle is the scoreboard. Every time, a playe cannot hit the ball, the other player get a point. If you hit the ball with the upper resp. lower side of the paddle, you can let he ball make very interesting moves.
+This game is a a two-player game. The left player can move his/ her paddle with "W" (up) and "S" (down) and the right player con move his/ her paddle with the up and down button. In top-middle is the scoreboard. Every time, a player cannot hit the ball, the other player gets a point. If you hit the ball with the upper resp. lower side of the paddle, you can let he ball make very interesting moves.
 
 
 You can add in the update function thes following lines, to let player1 and player2 spin:
