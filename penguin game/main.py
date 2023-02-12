@@ -104,6 +104,7 @@ def on_key_down(key):
         dudu.image = '嘟嘟'
         bricks = []
         score = 0
+        music.play('背景音乐')
         for i in range(5):
             n = random.randint(1, 4)
             b = Actor('踏板' + str(n))
