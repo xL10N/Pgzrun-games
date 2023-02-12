@@ -74,7 +74,7 @@ def update():
             if dudu.colliderect(b) and dudu.bottom < b.bottom:
                 dudu.bottom = b.top
                 on_brick = 1
-                # sto the game when Dudu is on brick 4
+                # stop the game when Dudu is on brick 4
                 if b.image == '踏板4':
                     dudu.image = '嘟嘟哭'
                 # Dudu move with brick 2 when he is on it
@@ -89,10 +89,10 @@ def update():
             dudu.image = '嘟嘟哭'
         if keyboard.left:
             if dudu.left > 0:
-                dudu.x -= 5
+                dudu.x -= 7
         if keyboard.right:
             if dudu.right < WIDTH:
-                dudu.x += 5
+                dudu.x += 7
     if dudu.image == '嘟嘟哭':
         # stops the music
         music.stop()
