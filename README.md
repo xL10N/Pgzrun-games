@@ -69,7 +69,8 @@ The file "pgzhelper.py", I downloaded from the last link.
 ***
 ## Penguin Game
 In this game, you are a penguin named Dudu. You can move him left and right. The bricks move from the bottom of the screen tp the upper side of the screen. If you are on the brick with spikes, the game will stop. The game stop also when you on the bottom of the screen or if you leave the screen.
-If Duduis not on a brick, he falls down, but he can move in the air.
+If Duduis not on a brick, he falls down, but he can move in the air. To save you points in the point history and start a new round, you must click on 
+"Space"
 You can see your points in the top left corner of the screen and in the point history.
 ## Source
 The picture and music i use for this game are from this chinese python course:
