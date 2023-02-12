@@ -89,10 +89,10 @@ def update():
             dudu.image = '嘟嘟哭'
         if keyboard.left or keyboard.a:
             if dudu.left > 0:
-                dudu.x -= 7
+                dudu.x -= 7.5
         if keyboard.right or keyboard.d:
             if dudu.right < WIDTH:
-                dudu.x += 7
+                dudu.x += 7.5
     if dudu.image == '嘟嘟哭':
         # stops the music
         music.stop()
