@@ -94,12 +94,6 @@ def update():
             if dudu.right < WIDTH:
                 dudu.x += 5
     if dudu.image == '嘟嘟哭':
-        try:
-            f = open("penguin_game_point_history.txt", "a")
-        except FileNotFoundError:
-            f = open("penguin_game_point_history.txt", "w")
-        now = datetime.now()
-        f.write(f'{now.strftime("%d/%m/%Y %H:%M:%S")}    Points : {score} \n')
         # stops the music
         music.stop()
 
@@ -107,6 +101,12 @@ def update():
 def on_key_down(key):
     # restart the game
     if key == keys.SPACE and dudu.image == '嘟嘟哭':
+        try:
+            f = open("penguin_game_point_history.txt", "a")
+        except FileNotFoundError:
+            f = open("penguin_game_point_history.txt", "w")
+        now = datetime.now()
+        f.write(f'{now.strftime("%d/%m/%Y %H:%M:%S")}    Points : {score} \n')
         global score, bricks
         music.play('背景音乐')
         dudu.image = '嘟嘟'
