@@ -87,10 +87,10 @@ def update():
         # if Dudu hit the bottom of the  screen the game will stop
         if dudu.bottom > HEIGHT or dudu.bottom <= 0:
             dudu.image = '嘟嘟哭'
-        if keyboard.left:
+        if keyboard.left or keyboard.a:
             if dudu.left > 0:
                 dudu.x -= 7
-        if keyboard.right:
+        if keyboard.right or keyboard.d:
             if dudu.right < WIDTH:
                 dudu.x += 7
     if dudu.image == '嘟嘟哭':
